@@ -21,6 +21,11 @@ export interface Nav {
     }[];
     buttons: CTA[];
   };
+  /**
+   * @description Background color of the header
+   * @format color-input
+   */
+  backgroundColor?: string;
 }
 
 export default function Header({
@@ -41,10 +46,11 @@ export default function Header({
       { id: "change-me-2", href: "/", text: "Change me", outline: true },
     ],
   },
+  backgroundColor = "#ffffff",
 }: Nav) {
   return (
     <nav class="drawer drawer-end">
-      <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
+      <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" style={{ backgroundColor }} />
 
       {/* main content */}
       <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
