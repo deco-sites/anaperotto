@@ -1,0 +1,212 @@
+{
+  "name": "English Version",
+  "path": "/en",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/header_IA.tsx",
+        "logo": {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/20c8184e-a9a9-415b-8978-15261ebf418b/Group-427318078_1.png",
+          "height": 100,
+          "width": 200,
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/384efd05-c6da-4b01-8d9b-38b319f7a36d/Frame-1533210175.png"
+        },
+        "navItems": [
+          {
+            "label": "Portuguese Version",
+            "href": "/"
+          }
+        ],
+        "navigation": {
+          "links": [],
+          "buttons": [
+            {
+              "href": "/",
+              "text": "Portuguese Version",
+              "outline": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/hero-1.tsx",
+        "title": "<p><strong><span style=\"color: #74a0f8; font-size: 40pt\">IndiaAlpha</span></strong><br><strong><span style=\"font-size: 24pt\">Brands that elevate businesses, connect people, and define the future.</span></strong></p>",
+        "subtitle": "IndiaAlpha was born from the power of the connection between brothers during a moment of overcoming, with the mission of creating and recreating brands that truly reflect the essence of those they represent. We believe that authentic brands are capable of impacting not only businesses but lives. With creativity, empathy, and purpose, we help build legacies that resonate with people and transform stories into inspirations.",
+        "primaryCta": "Get in Touch",
+        "primaryCtaUrl": "https://linktr.ee/indiaalpha",
+        "backgroundImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/4330d5f0-71a7-4bf7-8f05-32e5b986c481/andreperotto__A_collection_of_mockups_showcasing_the_BRAND_logo_e11065f3-fc9c-4055-94ab-99205bcf911c.png",
+        "secondaryCta": "Agendar uma reunião"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Logos.tsx",
+        "title": "Discover some brands that have already made history with us.",
+        "logos": [
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/3ce7da16-5c41-412f-bb3e-5c502d4b8c62/Frame-1533210170.png"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/3607c9c4-2b9a-4ad0-a5a1-dd0ff18deade/Frame-1533210169.png"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/19b7da42-7d20-45d3-9c05-190a87706ffe/Frame-1533210167.png"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/f0d9071e-3655-42d0-b82a-4eb7d8fb9e22/Frame-1533210166.png"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/155d56fd-0c66-4289-9bcf-d81f0b5fcadd/Frame-1533210165.png"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/4973c25d-329b-4d1f-8b52-b4fc31c998d2/Frame-1533210164.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/798a783a-7762-43fd-acaf-ee989e7572bc/giffycanvas_privia.gif",
+      "tagline": "#Naming #Branding",
+      "title": "Privia",
+      "description": "We were responsible for creating the naming and branding for Privia, the brand of Jo Fernandez, a Brazilian consultant specializing in luxury, operating in Florida. Privia was born to revolutionize the concept of real estate investment, connecting international investors to the American dream in an exclusive and simplified way. With the purpose of transforming lives, Privia goes beyond the mere sale of properties, offering an accessible luxury lifestyle, security in high-value transactions, and a personalized experience that redefines the standard of living.",
+      "cta": [
+        {
+          "href": "https://linktr.ee/indiaalpha",
+          "text": "Get in Touch"
+        }
+      ],
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "placement": "left"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/1b5461f7-e269-4643-832a-a502818a2be1/giffycanvas_wesplit.gif",
+      "tagline": "#ReBranding",
+      "title": "We Split",
+      "description": "WeSplit is a Fintech with the mission of promoting positive change and building a more inclusive financial future for everyone. WeSplit offers auto loans with fixed rates and 0% interest, featuring easy approval and higher credit limits. WeSplit is more than just a lending platform; it’s a community-driven solution designed to unlock vehicle accessibility and help Canadians and newcomers take control of their financial lives. It was founded in 2023 by Marcelo Ribeiro and is headquartered in Toronto, ON, Canada.",
+      "cta": [
+        {
+          "href": "https://linktr.ee/indiaalpha",
+          "text": "Get in Touch"
+        }
+      ],
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Marca Veículos",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/34c37b81-1b1e-430a-bccf-e8717eda4d10/3---KeyVisual.gif",
+      "tagline": "#Rebranding",
+      "description": "Marca Veículos came to IndiaAlpha with the challenge of reinventing itself. With a solid track record in the pre-owned car market, the company needed a new identity that conveyed trust, credibility, and a superior buying experience. Our rebranding went beyond a simple visual refresh; we created a brand that speaks directly to customers who are looking for more than just a vehicle—they seek a trusted relationship with the seller. The result was an identity that combines modernity, transparency, and a focus on personalized service, positioning Marca Veículos as a reference in the quality pre-owned car segment.",
+      "cta": [
+        {
+          "href": "https://linktr.ee/indiaalpha",
+          "text": "Get in Touch"
+        }
+      ],
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      }
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "NorteCar",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/29d92505-b00f-4e38-a147-f3f1ae51278a/giffycanvas_norte.gif",
+      "tagline": "#Branding",
+      "description": "NorteCar came to IndiaAlpha with the mission of establishing itself in the automotive market of Northern Brazil. As a new vehicle marketplace project, the brand needed an identity that conveyed trust, innovation, and an authentic connection to the region. Our work went beyond creating a visually appealing brand; we developed an identity that speaks directly to customers who are looking for more than just a vehicle, but a trustworthy and unique experience. The result is a brand that balances modernity, transparency, and accessibility.",
+      "cta": [
+        {
+          "href": "https://linktr.ee/indiaalpha",
+          "text": "Get in Touch"
+        }
+      ],
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Leadfy",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/47d041a2-9d08-487c-8311-f5fca9a580b1/leadfy_gif.gif",
+      "tagline": "#Rebranding",
+      "description": "Leadfy came to IndiaAlpha with a strong name and a provisional brand, ready to transform into a true icon in the technology sector. Our challenge was to create the branding for an innovative SAAS solution capable of using Amplified Intelligence to generate higher-quality and more efficient leads for its clients. We knew we were working on a special project, and our mission was to build a brand that matched this potential. The result was an identity that not only conveys Leadfy’s strength and innovation but also positions it among the top companies in the startup ecosystem. Today, Leadfy is a globally recognized brand, present at the world’s largest startup events, reflecting a success story driven by a solid and visionary branding strategy.",
+      "cta": [
+        {
+          "href": "https://linktr.ee/indiaalpha",
+          "text": "Get in Touch"
+        }
+      ],
+      "placement": "left",
+      "disableSpacing": {
+        "top": true,
+        "bottom": true
+      }
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "C7",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/ea54d4f3-54f5-4e83-91ed-577ae81f49f6/giffycanvas_c7.gif",
+      "tagline": "#Rebranding",
+      "description": "C7 was already one of the most respected agencies in the automotive sector, offering digital intelligence solutions for dealerships across Brazil. When they approached IndiaAlpha, the goal was to strengthen this position and create a brand that reflected their expertise and impact in the market. The mission was clear: to develop branding that spoke directly to major dealerships, positioning C7 as an indispensable partner in digital transformation. The result was a brand that breathes innovation and leadership, clearly communicating the value C7 delivers to its clients — including some of the largest dealership groups in the country. Today, C7 is not just an agency but a reference in automotive digital intelligence in Brazil.",
+      "cta": [
+        {
+          "href": "https://linktr.ee/indiaalpha",
+          "text": "Get in Touch"
+        }
+      ],
+      "placement": "right",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      }
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "Who has already turned stories into Brands",
+      "arrows": true,
+      "slides": [
+        {
+          "content": {
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/e8674d73-7e25-4d66-ae48-dc959514c0be/IMG_0985-Photoroom.png",
+            "name": "Jo Fernandez",
+            "position": "CEO - Privia",
+            "description": "I was thrilled to read and be part of one of IndiaAlpha’s creations, a company where I truly felt the meaning and purpose behind the work. Know that you did far more than I could have ever imagined. I always dreamed of having an amazing brand, but I thought that dream was far off, that it would be difficult to get everything right — the name, brand, colors, etc. I felt I could have something great, but only after a few years. But God knew what I really wanted, and then you arrived! You connected perfectly with my essence, my dreams, and my goals in Real Estate, and that's how you created Privia, which was love at first sight from the very first presentation — both the name and the branding. No changes needed!"
+          }
+        },
+        {
+          "content": {
+            "name": "Marcelo Ribeiro",
+            "position": "Founder - WeSplit",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/1b8323d5-90e8-4489-afa3-f17c73185844/1704467252367.jpeg",
+            "description": "Thank you, André Perotto, for the excellent rebranding work through IndiaAlpha! 👏 👏 💜"
+          }
+        }
+      ],
+      "dots": true
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/footer_indiaalpha.tsx",
+        "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/b6dbaba5-3f80-4c6a-90a7-16ecf8941907/IA-5.png",
+        "copyrightText": "<p>2k24 - IndiaAlpha - All Rights Reserved</p>"
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  }
+}
