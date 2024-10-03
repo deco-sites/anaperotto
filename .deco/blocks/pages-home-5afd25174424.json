@@ -85,7 +85,10 @@
           "text": "Quero mais informações"
         }
       ],
-      "placement": "right"
+      "placement": "right",
+      "disableSpacing": {
+        "bottom": true
+      }
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",

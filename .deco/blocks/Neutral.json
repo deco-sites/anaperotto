@@ -30,7 +30,15 @@
     "fonts": [
       {
         "variations": [],
+        "family": "Inter"
+      },
+      {
+        "variations": [],
         "family": "Albert Sans"
+      },
+      {
+        "variations": [],
+        "family": "Poppins"
       }
     ]
   },
