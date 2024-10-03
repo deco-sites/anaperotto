@@ -110,8 +110,8 @@ export default function Header({
           <a class="p-4" href="/">
             <Image
               src={logo.src || ""}
-              width={300}
-              height={112}
+              width={400}
+              height={212}
               alt={logo.alt}
             />
           </a>
