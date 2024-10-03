@@ -49,8 +49,8 @@ export default function Header({
   backgroundColor = "#ffffff",
 }: Nav) {
   return (
-    <nav class="drawer drawer-end">
-      <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" style={{ backgroundColor }} />
+    <nav class="drawer drawer-end" style={{ backgroundColor }}>
+      <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
       <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
@@ -65,7 +65,7 @@ export default function Header({
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
+                  class="link no-underline hover:underline p-4 text-base"
                 >
                   {link.label}
                 </a>
@@ -80,7 +80,7 @@ export default function Header({
                 href={item?.href ?? "#"}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
                 class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
+                  item.outline ? "btn-outline" : ""
                 }`}
               >
                 {item?.text}
@@ -92,7 +92,7 @@ export default function Header({
         <label
           htmlFor="mobile-drawer-nav"
           class="flex lg:hidden btn btn-ghost drawer-button"
-        >
+          aria-label="Open menu">
           <Icon id="Bars3" size={24} strokeWidth={0.1} />
         </label>
       </div>
@@ -106,17 +106,17 @@ export default function Header({
           class="drawer-overlay"
         />
 
-        <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content">
+        <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content p-4">
           <a class="p-4" href="/">
             <Image
               src={logo.src || ""}
-              width={200}
-              height={56}
+              width={300}
+              height={112}
               alt={logo.alt}
             />
           </a>
 
-          <ul class="menu">
+          <ul class="menu menu-vertical">
             {navigation?.links.map((link) => (
               <li>
                 <a href={link.url} aria-label={link.label}>
@@ -126,14 +126,14 @@ export default function Header({
             ))}
           </ul>
 
-          <ul class="p-4 flex items-center gap-3">
+          <ul class="flex flex-col gap-3">
             {navigation.buttons?.map((item) => (
               <a
                 key={item?.id}
                 id={item?.id}
                 href={item?.href ?? "#"}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
+                class={`font-normal btn btn-primary w-full ${
                   item.outline && "btn-outline"
                 }`}
               >

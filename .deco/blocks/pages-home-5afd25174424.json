@@ -10,7 +10,7 @@
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/indiaalpha/20c8184e-a9a9-415b-8978-15261ebf418b/Group-427318078_1.png",
           "height": 100,
           "width": 200,
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/anaperotto/8fa6d9af-f78d-41cd-b15b-bf706a20ee4f/Frame-1.jpg"
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/anaperotto/fe8601c4-aac2-44b9-b0be-d65405dd5e5e/Frame-1-533210189.png"
         },
         "navItems": [
           {
@@ -20,15 +20,9 @@
         ],
         "navigation": {
           "links": [],
-          "buttons": [
-            {
-              "href": "/en",
-              "text": "English Version",
-              "outline": true
-            }
-          ]
+          "buttons": []
         },
-        "backgroundColor": "#030303"
+        "backgroundColor": "#b48b5e"
       }
     },
     {
